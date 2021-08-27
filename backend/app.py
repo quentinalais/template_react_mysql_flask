@@ -17,6 +17,6 @@ config = {
 
 @app.route('/',methods=["GET"])
 def home():
-    return "<h1> Bonjour le monde !!! </h1>"
+    return "<h1> Welcome to your Flask Backend. </h1>"
 
 app.run(host="backend", debug=True)
